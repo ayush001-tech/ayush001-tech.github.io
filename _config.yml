@@ -4,18 +4,16 @@ description: Computers and what not
 url: "https://nathanpi8.github.io"
 baseurl: ""
 
-# Links (shown in the footer by minima)
+# Links
 github_username: nathanpi8
-
-# Theme — stock minima, as shipped with GitHub Pages
-theme: minima
-header_pages:
-  - about.md
-show_excerpts: true
 
 # Build settings (GitHub Pages native)
 markdown: kramdown
+highlighter: rouge
 permalink: /:year/:month/:title/
+
+kramdown:
+  syntax_highlighter: rouge
 
 exclude:
   - README.md
