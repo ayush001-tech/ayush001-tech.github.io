@@ -164,16 +164,6 @@ a.site-brand:hover {
   margin: 10px 0 30px;
 }
 
-.post-header::after {
-  content: "";
-  display: block;
-  width: 48px;
-  height: 3px;
-  border-radius: 2px;
-  background: var(--accent);
-  margin-top: 14px;
-}
-
 .post-header h1 {
   font-size: 36px;
   letter-spacing: -1.75px;
