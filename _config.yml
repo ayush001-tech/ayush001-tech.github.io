@@ -1,15 +1,15 @@
 # Site settings — edit these
 title: Nathan Paul
 description: Placeholder tagline — one line about what you write about.
-url: "https://USERNAME.github.io"   # replace USERNAME with your GitHub username
-baseurl: ""                          # leave empty for USERNAME.github.io; set to "/repo-name" for a project site
+url: "https://nathanpi8.github.io"
+baseurl: ""                          # empty because the repo is named nathanpi8.github.io
 
 # Author / links shown on the homepage
 author:
   name: Nathan Paul
   email: nathanindumon@gmail.com
 twitter_username: yourhandle
-github_username: yourusername
+github_username: nathanpi8
 
 # Build settings (GitHub Pages native)
 markdown: kramdown
