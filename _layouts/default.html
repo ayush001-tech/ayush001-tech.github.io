@@ -2,14 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/npi.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <main>
-    {{ content }}
-  </main>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-brand" href="{{ '/' | relative_url }}">
+        <img class="site-logo" src="{{ '/assets/images/npi.svg' | relative_url }}" alt="" width="36" height="36">
+        <span class="site-title">{{ site.title }}</span>
+      </a>
+      <nav class="site-nav">
+        <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-content">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-col">
+        <span>{{ site.title }}</span>
+      </div>
+      <div class="footer-col">
+        <a href="https://github.com/{{ site.github_username }}">github/{{ site.github_username }}</a><br>
+        <a href="https://twitter.com/{{ site.twitter_username }}">twitter/{{ site.twitter_username }}</a><br>
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      </div>
+      <div class="footer-col footer-tagline">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
